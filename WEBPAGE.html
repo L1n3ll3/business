@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-euiv="X-UA-Compatible" content="IE=edge">
+        <meta charset="viewport" content="width=device-width", initial-scale="1.0">
+        <title>Reeri's Essence</title>
+        <!-- ==== CSS ==== -->
+        <link rel="stylesheet" href="WEBPAGE-DESIGN.css">
+    </head>
+    <body>
+        <!-- Navbar -->
+        <nav class="navbar">
+            <h1 class="logo">Perfume</h1>
+            <ul class="nav-links">
+                <div></div>
+                <li class="active"><a href="#"></a>HOME</li>
+                <li><a href="#"></a>PRODUCTS</li>
+                <li><a href="#"></a>ABOUT</li>
+                <li><a href="#"></a>FEEDBACKS</li>
+                <li class="ctn"><a href="#"></a>FOOTER</li>
+            </ul>
+            <img src="./img/menu.jpg" alt="" class="menu-btn">
+        </nav>
+        <header>
+            <div class="header-content">
+                <h2>Nation's Best Perfume</h2>
+                <div class="line"></div>
+                <h1>REERI'S ESSENCE</h1>
+                <a href="#" class="ctn">Visit us to know more</a>
+            </div>
+        </header>
+
+        <!-- == product == -->
+        <section class="product" id="product">
+            <div class="perfumes">
+                <h1>Perfumes we offer</h1>
+                <div class="line"></div>
+             </div>
+             <div class="row">
+                <div class="col">
+                    <img src="./img/perfume.png" alt="">
+                    <h4>For Women</h4>
+                    <p>1. Coco Chanel Paris</p>
+                    <p>2. Lacoste Pink</p>
+                    <p>3. Guess Pink</p>
+                    <p>4. Meow by Katy Perry</p>
+                    <p>5. Victoria's Secret Bombshell</p>
+                </div>
+                <div class="col">
+                    <img src="./img/perfume.png" alt="">
+                    <h4>For Men</h4>
+                    <p>1. Lacoste Red</p>
+                    <p>2. Eternity for Men</p>
+                    <p>3. Hugo Boss Classic</p>
+                    <p>4. Acua Di Gio</p>
+                    <p>5. Polo Blue Ralph Lauren</p>
+                </div>
+             </div>
+        </section>
+
+        <!-- == products end == -->
+
+        <!-- == about == -->
+
+        <section class="about">
+            <div class="about-content">
+              <h1>About Us</h1>
+              <div class="line"></div>
+              <h3>Our inspired scents offer high-quality perfumes that are 
+               long-lasting, oil-rich and will give you more confidence. The purpose of using our perfume is to give a person's body a pleasing and 
+               desirable aroma in an effort to make them feel more attractive and confident.
+               Scents are said to improve mood, reduce stress and anxiety, boost cognitive 
+               function, and improve sleep in order to improve health and well-being.</h3>
+              <a href="#" class="ctn">Learn More</a>             
+            </div>
+        </section>
+
+        <!-- == about end == -->
+
+        <!-- == feedbacks == -->
+
+        <section>
+            <div class="content">
+                <h1>Our Customers's Feedbacks</h1>
+                 <div class="line"></div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <img src="./img/image(2).jpg">
+                <h4>"Nagamit ko siya sa simbahan kahapon tapos may mga nagtanong sakin kung ano daw gamit ko 
+                na perfume kasi kahit malayo naaamoy nila"</h4>
+                </div>
+                <div class="col">
+                    <img src="./img/image(3).jpg">
+                <h4>"Gusto ko i-try lahat ng scents kasi sobrang bango ng nabili ko. Mild lang ang scent kaya 
+                di nakakahilo and amoy expensive"</h4>
+                </div>
+                <div class="col">
+                    <img src="./img/image(1).jpg">
+                <h4>"Sobrang bango niya hindi siya masakit sa ilong unlike other perfumes. Long-lasting siya 
+                and worth the price"</h4>
+                </div>
+            </div>
+        </section>
+        <!-- == feedbacks end == -->
+
+        <!-- == footer == -->
+
+<section class="footer">
+    <p>San Nicolas, Gapan, Philippines, 3105 | Email: reerisessence@gmail.com</p>
+    <p>Copyright 2023 Reeri's Essence | All Rights Reserved</p>
+</section>
+
+        <!-- == footer end == -->
+
+        <script>
+            const menuBtn = document.querySelector('.menu-btn')
+            const navlinks = document.querySelector('.nav-links')
+
+            menuBtn.addEventListener('click',()=>{
+                navlinks.classList.toggle('mobile-menu')
+            })
+        </script>
+    </section>
+    </body>
+</html>
